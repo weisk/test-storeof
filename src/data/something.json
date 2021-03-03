@@ -1,7 +1,7 @@
 {
-  "singular": "Big Mac",
-  "plural": "Big Macs",
-  "icon": "🍔",
+  "singular": "Biggy Baggy",
+  "plural": "Muchos Biggy Baggy",
+  "icon": "💰",
   "logo": "/assets/logo.svg",
   "year": {
     "from": 2013,
@@ -9,7 +9,7 @@
   },
   "category": {
     "in": "in",
-    "default": "United States"
+    "default": "colombia"
   },
   "csvColumnNames": {
     "date": "date",
@@ -22,16 +22,16 @@
   },
   "dataSources": [
     {
-      "what": "The Big Mac index data",
-      "providedBy": "The Economist",
-      "link": "https://github.com/TheEconomist/big-mac-data"
+      "what": "The price of the big Rock",
+      "providedBy": "The Sniffologyst",
+      "link": "https://github.com/weisk/test-storeof"
     }
   ],
   "credits": [
     {
-      "what": "Hamburger pic",
-      "providedBy": "OpenMoji",
-      "link": "https://openmoji.org/library/"
+      "what": "barbie party hard",
+      "providedBy": "dunno",
+      "link": "https://404.com"
     }
   ],
   "repoLink": "https://github.com/alexk111/store-of-something",
