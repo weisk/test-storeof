@@ -141,14 +141,14 @@
   
     <div class="logo"><img src="/assets/logo.svg" alt="Logo" /></div>
   
-  <h1>Store of Big Macs</h1>
+  <h1>Store of Muchos Biggy Baggy</h1>
 </header>
 
 <section class="main">
   <div class="main-block">
     <span class="inline-block">Monetary value of</span>
 
-    <span class="inline-block"><b>1 Big Mac</b></span>
+    <span class="inline-block"><b>1 Biggy Baggy</b></span>
 
     <span class="inline-block">
       in
@@ -262,7 +262,7 @@
         
         <option value="United Arab Emirates">United Arab Emirates</option>
         
-        <option value="United States" selected>United States</option>
+        <option value="United States">United States</option>
         
         <option value="Uruguay">Uruguay</option>
         
@@ -313,7 +313,7 @@
       today would get
     </span>
     <span class="inline-block">
-      <b><span class="thing-now-qty">⏳</span> Big Macs</b>
+      <b><span class="thing-now-qty">⏳</span> Muchos Biggy Baggy</b>
     </span>
   </div>
 </section>
@@ -327,7 +327,7 @@
     <h2>📈 Data</h2>
     
     
-    <p>The Big Mac index data provided by <a href="https://github.com/TheEconomist/big-mac-data" target="_blank">The Economist</a>.</p>
+    <p>The price of the big Rock provided by <a href="https://github.com/weisk/test-storeof" target="_blank">The Sniffologyst</a>.</p>
     
     
     <p>Bitcoin vs USD/XAU/XAG data provided by <a href="https://www.coingecko.com/en/api" target="_blank">CoinGecko API</a>.</p>
@@ -341,7 +341,7 @@
   <div class="info-block">
     <h2>🙏 Other Credits</h2>
     
-    <p>Hamburger pic provided by <a href="https://openmoji.org/library/" target="_blank">OpenMoji</a>.</p>
+    <p>barbie party hard provided by <a href="https://404.com" target="_blank">dunno</a>.</p>
     
   </div>
   
@@ -446,7 +446,7 @@
             ticks: {
               autoSkip: true,
               callback: function(t) {
-                  return "🍔×" + toFormattedNum(t);
+                  return "💰×" + toFormattedNum(t);
               },
               fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
               fontSize: 12,
@@ -462,7 +462,7 @@
         intersect:false,
         callbacks: {
           label: function(tooltipItem, _data) {
-            return '🍔×' + toFormattedNum(tooltipItem.yLabel);
+            return '💰×' + toFormattedNum(tooltipItem.yLabel);
           }
         }
       }
